@@ -125,7 +125,7 @@ const Home = ({ navigation }) => {
 
         <View style={{ flex: 1, alignItems: 'center', }}>
           <Image style={{ marginTop: 50 }} source={require('../../assets/diamond.png')} />
-          <Text style={[styles.mainHeader,]}>Diamond Academy</Text>
+          <Text style={[styles.mainHeader, {}]}>Diamond Academy</Text>
 
           {/* <Image source={require('../../assets/rec2.png')}  /> */}
 

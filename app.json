@@ -8,8 +8,8 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splashscreen.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#B8B8F4"
+      "resizeMode": "cover",
+      "backgroundColor": "white"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -29,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b3aa03b1-1a8b-4e6f-acd5-665f23526a73"
+      }
     }
   }
 }
